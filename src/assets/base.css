@@ -1,0 +1,31 @@
+:root {
+  --color-background: #353638;
+  --color-background-light: #696969;
+  --color-gray: #9E9E9E;
+  --color-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  background: none;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-white);
+  background: var(--color-background);
+
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 21px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
